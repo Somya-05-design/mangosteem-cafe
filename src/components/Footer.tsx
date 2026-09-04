@@ -11,18 +11,18 @@ export const Footer: React.FC = () => {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 text-center">
         {/* Brand Title */}
         <div className="inline-flex flex-col items-center mb-8">
-          <span className="font-serif italic text-xs tracking-widest text-coffee-textMuted uppercase mb-1">~ The ~</span>
-          <div className="flex items-center gap-3">
-            <h3 className="font-serif text-3xl sm:text-4xl font-extrabold text-coffee-dark tracking-tight">
-              Mangosteem
-            </h3>
-            <div className="w-9 h-9 rounded-full bg-coffee-dark text-white flex items-center justify-center shadow-sm">
-              <Coffee className="w-5 h-5 text-amber-300" />
-            </div>
+          <span className="font-serif italic text-xs tracking-widest text-coffee-textMuted uppercase mb-2">~ The ~</span>
+          <div className="flex items-center justify-center py-1">
+            <Image
+              src="/images/logo.png"
+              alt="Mangosteem Logo"
+              width={260}
+              height={60}
+              className="h-14 sm:h-16 w-auto object-contain"
+            />
           </div>
-          <p className="font-serif text-2xl font-bold text-coffee-dark mt-1 flex items-center gap-1.5 justify-center">
-            <span>Cafe</span>
-            <span className="text-coffee-amber text-sm">♥</span>
+          <p className="font-serif text-xs font-bold text-coffee-dark mt-1 flex items-center gap-1.5 justify-center tracking-widest uppercase">
+            <span>Cafe Indore</span>
           </p>
         </div>
 

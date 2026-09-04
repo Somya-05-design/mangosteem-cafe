@@ -43,11 +43,15 @@ export const Navbar: React.FC = () => {
 
         {/* Center Logo */}
         <div className="flex items-center justify-center">
-          <Link href="#home" className="flex items-center gap-1 group">
-            <span className="font-serif italic font-bold text-2xl lg:text-3xl text-coffee-dark tracking-tight transition-transform group-hover:scale-105">
-              Mangosteem
-            </span>
-            <span className="text-coffee-amber text-lg font-bold">♥</span>
+          <Link href="#home" className="flex items-center justify-center group py-1">
+            <Image
+              src="/images/logo.png"
+              alt="Mangosteem Logo"
+              width={240}
+              height={56}
+              className="h-10 lg:h-12 w-auto object-contain transition-transform duration-300 group-hover:scale-105"
+              priority
+            />
           </Link>
         </div>
 
